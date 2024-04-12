@@ -3,9 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>This is my project</h1>
+    <section class="how-it-works">
+      <div class="hiw-wrap">
+        <h2 class="visually-hidden" id="how-it-works">How it works</h2>
+        <div class="hiw-wrap-img">
+          <picture>
+            <source
+              srcset="
+                ./img/hiw-desctop-2x-min.jpg 2x,
+                ./img/hiw-desctop-min.jpg    1x
+              "
+              media="(min-width: 1158px)"
+            />
+            <source
+              srcset="
+                ./img/hiw-tablet-2x-min.jpg 2x,
+                ./img/hiw-tablet-min.jpg    1x
+              "
+              media="(min-width: 768px)"
+            />
+            <source
+              srcset="./img/hiw-mob-2x-min.jpg 2x, ./img/hiw-mob-min.jpg 1x"
+              media="(min-width: 375px)"
+            />
+            <img
+              class="hiw-img"
+              src="./img/hiw-tablet-min.jpg"
+              alt="woman is cooking"
+              width="640"
+              height="640"
+            />
+          </picture>
+        </div>
+        <div class="hiw-wrap-text">
+          <p class="hiw-subtitle">
+            To order your <span>vegetable</span> basket, simply follow these
+            <span>easy steps</span>
+          </p>
+          <p class="hiw-text">
+            Our baskets are assembled with care and delivered straight to your
+            doorstep, so you can enjoy the taste of fresh fruit without ever
+            leaving your home.
+          </p>
+          <ol class="hiw-list">
+            <li class="hiw-list-item">
+              Just choose <span>the vegetable</span> you want to order by
+              clicking on the checkboxes <span>next to it.</span>
+            </li>
+            <li class="hiw-list-item">
+              Click on <span>the basket</span> and fill out the form.
+            </li>
+            <li class="hiw-list-item">
+              Sit back and relax! Your <span>fresh vegetables</span> basket will
+              be delivered.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
