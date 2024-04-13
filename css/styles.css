@@ -3,10 +3,12 @@
 *::after {
   box-sizing: border-box;
 }
+
 img {
   display: block;
   max-width: 100%;
 }
+
 body {
   margin: 0;
 }
@@ -55,6 +57,7 @@ ol {
 
 .hiw-img {
   border-radius: 30px;
+  height: auto;
 }
 
 .hiw-wrap-text {
@@ -128,7 +131,8 @@ ol {
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
   border-radius: 15px;
-  padding: 12px 24px 12px 100px;
+  padding-right: 24px;
+  padding-left: 100px;
   width: 100%;
   min-height: 76px;
   background-color: #fbfbfb;
@@ -141,4 +145,59 @@ ol {
 .hiw-list-item span {
   font-weight: 700;
   color: #141414;
+}
+
+@media screen and (min-width: 768px) {
+  .hiw-wrap {
+    max-width: 768px;
+  }
+
+  .hiw-wrap-img {
+    padding-right: 64px;
+    padding-left: 64px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hiw-wrap-text {
+    padding-right: 159px;
+    padding-left: 159px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hiw-subtitle {
+    font-size: 32px;
+  }
+
+  .hiw-text {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .hiw-list-item {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hiw-wrap {
+    max-width: 1280px;
+    display: flex;
+  }
+
+  .hiw-wrap-img {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .hiw-wrap-text {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 160px;
+  }
 }
