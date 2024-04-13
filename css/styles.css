@@ -136,13 +136,16 @@ ol {
   width: 100%;
   min-height: 76px;
   background-color: #fbfbfb;
+
+  display: flex;
+  align-items: center;
 }
 
 .hiw-list-item:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.hiw-list-item span {
+.hiw-item-span {
   font-weight: 700;
   color: #141414;
 }
