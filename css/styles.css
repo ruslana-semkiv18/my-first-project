@@ -168,11 +168,13 @@ ol {
 
   .hiw-subtitle {
     font-size: 32px;
+    margin-bottom: 25px;
   }
 
   .hiw-text {
     font-size: 16px;
     line-height: 1.25;
+    margin-bottom: 50px;
   }
 
   .hiw-list-item {
@@ -188,6 +190,7 @@ ol {
   }
 
   .hiw-wrap-img {
+    max-width: 630px;
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 100px;
@@ -195,6 +198,7 @@ ol {
   }
 
   .hiw-wrap-text {
+    max-width: 650px;
     padding-right: 100px;
     padding-left: 100px;
     padding-top: 100px;
