@@ -99,13 +99,13 @@ ol {
   counter-increment: section;
   content: counter(section);
   position: absolute;
-  background-color: #7a3145;
   top: 12px;
   left: 24px;
   width: 52px;
   height: 52px;
   border-radius: 100%;
   border: 5px solid rgba(122, 49, 69, 0.3);
+  background-color: #7a3145;
 
   display: flex;
   justify-content: center;
@@ -128,7 +128,7 @@ ol {
   letter-spacing: -0.02em;
   color: rgba(20, 20, 20, 0.6);
   border-radius: 15px;
-  padding: 24px 24px 24px 100px;
+  padding: 12px 24px 12px 100px;
   width: 100%;
   min-height: 76px;
   background-color: #fbfbfb;
